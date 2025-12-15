@@ -1,0 +1,55 @@
+###############################
+# Author: MinesInfinite            #
+###############################
+
+
+
+usePermission: false
+usePlaceholderAPI: true
+delay: 2 #-1 = shown when resource pack is loaded
+
+
+# If you want to show the book only on the first login you can set times: 1 and resetViewsOnBookChange: false
+
+times: -1  #0 = the message is not shown, #-1 = the message is always shown;
+resetViewsOnBookChange: true
+defaultCraftedBookName: "&6Awesome book!"
+searchForUpdates: true
+messages:
+  guide:
+    - ''
+    - ''
+    - '                     &3&lBooks Popups &bby MinesInfinite'
+    - " &8- &3/book open &8» &bOpen the saved book"
+    - " &8- &3/book preview &8» &bLaunch a preview of the book in your hand"
+    - " &8- &3/book save &8» &bSave the book in your hand"
+    - " &8- &3/book announce &8» &bSend a global announce with the book in your hand"
+    - " &8- &3/book times <number> &8» &bSet how many times an announce will be shown at join"
+    - " &8- &3/book delete &8» &bDelete the saved book"
+    - " &8- &3/book reload &8» &bReload the plugin"
+    - " &8- &3/book give &8» &bAdd a Book and Quill to your inventory"
+    - " &8- &3/book edit &8» &bEdit the saved book"
+    - " &8- &3/book craft [name] &8» &bCraft a book using the Book and Quill in your hand"
+    - " &8- &3/book discord &8» &bJoin our Discord server"
+
+  open: '&aThe book has been opened.'
+  test: '&aYou have opened a book as test.'
+  noPermission: '&cYou can''t use this command.'
+  notBook: "&cYou don't have a Book and Quill in your hand."
+  changedBook: '&aYou have changed the book.'
+  announceSent: '&aYou have sent a global announce.'
+  announceReceived: '&aYou have received a announce.'
+  currentBook: '&aYou have opened the saved book.'
+  notSavedBook: '&cThere is not a saved book.'
+  timesChanged: '&aYou have changed the value of ''times''.'
+  timesUsage: '&2Usage: &a/book times <number>.'
+  notNumeric: '&cYou need to specify a number.'
+  reload: "&3AutomaticBooks &ahas been reloaded."
+  deletedBook: "&cThe book has been deleted."
+  receivedBook: "&aYou have received a Book and Quill."
+  craftedBook: "§aYou have crafted a book."
+  fullInventory: "&cYour inventory is full."
+  craftUsage: "&2Usage: &a/book craft [name]"
+  preview: "&aYou have opened a preview."
+  editBook: "&aYou can now edit the book."
+  openUsage: "&aOpen the book with /book open."

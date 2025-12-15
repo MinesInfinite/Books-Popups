@@ -1,0 +1,8 @@
+name: "Book Popups"
+version: "3.0"
+api-version: "1.13"
+main: com.github.devmanu.automaticbooks.AutomaticBooks
+softdepend: [PlaceholderAPI, ProtocolLib]
+commands:
+  book:
+    description: Manage books
