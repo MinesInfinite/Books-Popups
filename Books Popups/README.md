@@ -1,4 +1,4 @@
-### AutomaticBooks
+### Book Popups
 
 
 AutomaticBooks is a plugin that allows you to open books in a very easy way.
